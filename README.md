@@ -1,0 +1,1 @@
+This repository demonstrates a common concurrency bug in Rust: a data race. The `bug.rs` file contains code that creates multiple mutable references to the same variable, leading to undefined behavior. The `bugSolution.rs` file provides a corrected version using techniques such as mutexes or channels to avoid the race condition.
